@@ -1,0 +1,35 @@
+.geek-layout {
+  height: 100vh;
+  overflow: hidden;
+  .ant-layout-header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  .ant-menu.ant-menu-dark {
+    .ant-menu-item {
+      padding-left: 50px;
+    }
+    .ant-menu-item-selected {
+      background: #048;
+    }
+  }
+  .ant-layout-content {
+    height: 100%;
+    overflow-y: auto;
+  }
+  .logo {
+    width: 100%;
+    height: 64px;
+    color: #f8f8f8;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 70%;
+    }
+  }
+}

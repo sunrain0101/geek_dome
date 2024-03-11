@@ -1,0 +1,39 @@
+.geek-layout {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.geek-layout .ant-layout-header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.geek-layout .ant-menu.ant-menu-dark .ant-menu-item {
+  padding-left: 50px;
+}
+
+.geek-layout .ant-menu.ant-menu-dark .ant-menu-item-selected {
+  background: #048;
+}
+
+.geek-layout .ant-layout-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.geek-layout .logo {
+  width: 100%;
+  height: 64px;
+  color: #f8f8f8;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.geek-layout .logo img {
+  height: 70%;
+}
